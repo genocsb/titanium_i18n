@@ -1,0 +1,42 @@
+".container" : {
+	backgroundColor: "white"
+}
+
+'#subView' : {
+	layout: "vertical",
+	height: Ti.UI.SIZE
+}
+
+'#lbHelloWorld': {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	bottom : 16,
+	color: "#000",
+	font: {
+		fontSize: 18
+	},
+	text: L("helloWorld")
+}
+
+'.button' : {
+	height: 40,
+	width: "70%",
+	borderRadius: 20,
+	top: 8,
+	bottom: 8,
+	backgroundColor: "#3EA93A",
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+'#btSetEN' : {
+	title: "ENGLISH"
+}
+"#btSetFR" : {
+	title: "FRANÇAIS"
+}
+"#btSetAR" : {
+	title: "العربي"
+}

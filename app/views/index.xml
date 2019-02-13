@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<View id="subView">
+			<Label id="lbHelloWorld"/>
+			<Button id="btSetEN" onClick="setEN" class="button"/>
+			<Button id="btSetFR" onClick="setFR" class="button"/>
+			<Button id="btSetAR" onClick="setAR" class="button"/>
+		</View>
+	</Window>
+</Alloy>
