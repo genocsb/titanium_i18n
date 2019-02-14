@@ -13,4 +13,4 @@ before build app copy the i18n files in app assets folder and parse to parse it 
 
 ## USE
 
-	`require("language_manager").setLanguage("en");`
+	require("language_manager").setLanguage("en");
